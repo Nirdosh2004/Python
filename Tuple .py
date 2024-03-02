@@ -1,0 +1,11 @@
+#tuple -> immutable (if we make it then we have no choice to modify it)
+
+tup = (3,2.03,4,5)
+print(type(tup))
+print(tup[1])
+print(tup)
+print(type(tup[1]))
+# tup.sort()
+# print(tup)
+print(tup.index(3))
+print(tup.count(4))
