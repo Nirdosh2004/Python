@@ -7,7 +7,7 @@ print(favMovies)
 one = [4,3,5,3,4]
 copyOne = one.copy()
 copyOne.reverse()
-if(one == copyOne):
+if(one == copyOne):   
           print("palindrome")
 else:
         print("not palindrome")
