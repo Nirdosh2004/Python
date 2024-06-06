@@ -5,7 +5,7 @@ favMovies.append(input("Enter movie 3 : "))
 print(favMovies)
 
 one = [4,3,5,3,4]
-copyOne = one.copy()
+copyOne = one.copy()  
 copyOne.reverse()
 if(one == copyOne):   
           print("palindrome")
